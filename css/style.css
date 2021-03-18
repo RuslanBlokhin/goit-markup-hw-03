@@ -28,6 +28,8 @@ ul {
 }
 
 img {
+  max-width: 100%;
+  height: auto;
   display: block;
 }
 
@@ -51,7 +53,7 @@ body {
   height: 1px !important;
   width: 1px !important;
   overflow: hidden;
-}
+} 
 
 .container {
   width: 1200px;
@@ -237,7 +239,7 @@ body {
 
 .employees-list li {
   background-color: var(--primary-white-color);
-  width: 270px;
+  
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
   0px 1px 1px rgba(0, 0, 0, 0.14),
   0px 2px 1px rgba(0, 0, 0, 0.2);
