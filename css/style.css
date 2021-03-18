@@ -275,16 +275,15 @@ body {
 
 .low {
   background-color: #2f303a;
-  margin-top: 69px;
 }
 
 .low-container {
   display: flex;
   flex-direction: column;
+  padding-top: 60px;
 }
 
 .low-container .logo {
-  padding-top: 60px;
   margin: 0;
   margin-bottom: 20px;
 }
